@@ -13,7 +13,7 @@ public class HelloWorldController extends AbstractController {
 			HttpServletResponse response) throws Exception {
 
 		ModelAndView model = new ModelAndView("HelloWorldPage");
-		model.addObject("msg", "hello demo!");
+		model.addObject("msg", "hello flexdeploy demo!");
 
 		return model;
 	}
